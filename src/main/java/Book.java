@@ -20,6 +20,7 @@ public class Book {
     // If you don't put this annotation, it won't be in the database.
     int year;
 
+    // WARNING: Each ORM object must have an empty constructor!!!
     public Book() {
     }
 
